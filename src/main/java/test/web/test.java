@@ -5,6 +5,8 @@ public class test {
 	public String name;
 	
 	public int age;
+	
+	public int gender;
 
 	public String getName() {
 		return name;
@@ -20,5 +22,13 @@ public class test {
 
 	public void setAge(int age) {
 		this.age = age;
+	}
+
+	public int getGender() {
+		return gender;
+	}
+
+	public void setGender(int gender) {
+		this.gender = gender;
 	}
 }
